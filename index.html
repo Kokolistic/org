@@ -1,1 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kokolistic Tech Solutions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Innovative technology solutions for the modern world.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container nav-container">
+            <h1 class="logo">Kokolistic<span>Tech</span></h1>
+            <nav>
+                <ul id="nav-list">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+            </nav>
+        </div>
+    </header>
 
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h2>Empowering Your Digital Future</h2>
+            <p>We deliver innovative software solutions to help your business thrive in the digital era.</p>
+            <a href="#contact" class="cta-btn">Get Started</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>
+                Kokolistic Tech Solutions is a forward-thinking technology company specializing in software development, cloud computing, and digital transformation. Our mission is to help businesses unlock their full potential with cutting-edge technology and expert guidance.
+            </p>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-cards">
+                <div class="service-card">
+                    <h3>Custom Software Development</h3>
+                    <p>Tailored web and mobile apps to streamline your operations and engage your customers.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Cloud Solutions</h3>
+                    <p>Modernize your infrastructure with scalable, secure, and reliable cloud services.</p>
+                </div>
+                <div class="service-card">
+                    <h3>IT Consulting</h3>
+                    <p>Expert advice to guide your digital transformation and technology investments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="team">
+        <div class="container">
+            <h2>Meet Our Team</h2>
+            <div class="team-members">
+                <div class="member">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="CEO">
+                    <h4>Alex Johnson</h4>
+                    <p>Chief Executive Officer</p>
+                </div>
+                <div class="member">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="CTO">
+                    <h4>Maria Smith</h4>
+                    <p>Chief Technology Officer</p>
+                </div>
+                <div class="member">
+                    <img src="https://randomuser.me/api/portraits/men/77.jpg" alt="Lead Engineer">
+                    <h4>Sam Lee</h4>
+                    <p>Lead Engineer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit" class="cta-btn">Send Message</button>
+                <p id="form-result"></p>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-container">
+            <p>&copy; 2025 Kokolistic Tech Solutions. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
